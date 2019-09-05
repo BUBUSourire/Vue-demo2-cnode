@@ -9,7 +9,7 @@
             <router-link :to="{name:'root'}">首页</router-link>
         </li>
         <li>
-          <a href="#">关于</a>
+          <a href="https://github.com/BUBUSourire/Vue-demo2-cnode">关于</a>
         </li>
       </ul>
     </div>
