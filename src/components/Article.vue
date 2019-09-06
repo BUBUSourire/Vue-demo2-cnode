@@ -37,6 +37,7 @@
             <i class="iconfont icon-dianzan"></i>
             <span class="dianzan_txt">{{reply.ups.length}}</span>
           </span>
+          <p class="topic_content markdown-body" v-html="reply.content"></p>
         </div>
       </div>
     </div>
@@ -180,12 +181,10 @@ export default {
   font-size: 12px;
   color: #838383;
 }
-
 .topic_content {
-  border-top: 1px solid #e5e5e5;
+  /* border-top: 1px solid #e5e5e5; */
   padding: 0 10px;
 }
-
 .markdown-text img {
   width: 92% !important;
 }
