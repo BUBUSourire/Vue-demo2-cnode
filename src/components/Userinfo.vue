@@ -7,7 +7,11 @@
     <!-- 内容 -->
     <div class="userInfomation" v-else>
       <div class="zhuye">
-        <a href="/">主页 /</a>
+         <router-link :to="{
+          name:'root'
+        }">
+          <span>主页 /</span>
+        </router-link>
       </div>
       <section class="user_top">
         <a href="javascript:location.reload();">
